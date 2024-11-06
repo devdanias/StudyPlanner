@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyPlanner</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">StudyPlanner</div>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#areas">Áreas de Estudo</a></li>
+                <li><a href="#resources">Recursos</a></li>
+                <li><a href="#goals">Metas e Objetivos</a></li>
+                <li><a href="#progress">Progresso</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Aprenda no seu ritmo</h1>
+            <p>Planos de estudo personalizados para impulsionar sua carreira</p>
+            <button class="cta-button">Comece Agora</button>
+        </section>
+
+        <section id="areas" class="study-areas">
+            <h2>Áreas de Estudo</h2>
+            <div class="area-grid">
+                <div class="area-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Desenvolvimento Front-end</h3>
+                    <button class="select-area">Escolher</button>
+                </div>
+                <div class="area-card">
+                    <i class="fas fa-video"></i>
+                    <h3>Edição de Vídeo</h3>
+                    <button class="select-area">Escolher</button>
+                </div>
+                <!-- Adicione mais áreas conforme necessário -->
+            </div>
+        </section>
+
+        <section id="resources" class="resources">
+            <h2>Recursos Recomendados</h2>
+            <div class="resource-list">
+                <div class="resource-item">
+                    <i class="fas fa-book"></i>
+                    <h4>Livros e E-books</h4>
+                    <ul>
+                        <li><a href="#">HTML & CSS: Design and Build Websites</a></li>
+                        <li><a href="#">JavaScript: The Good Parts</a></li>
+                    </ul>
+                </div>
+                <div class="resource-item">
+                    <i class="fas fa-tools"></i>
+                    <h4>Ferramentas e Softwares</h4>
+                    <ul>
+                        <li><a href="#">Visual Studio Code</a></li>
+                        <li><a href="#">Adobe Premiere Pro</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="goals" class="goals">
+            <h2>Metas e Objetivos</h2>
+            <p>Defina suas metas de estudo e acompanhe seus objetivos para cada etapa.</p>
+            <div class="goal-form">
+                <input type="text" id="goalInput" placeholder="Digite uma meta...">
+                <button id="addGoal">Adicionar Meta</button>
+            </div>
+            <ul id="goalList"></ul>
+        </section>
+
+        <section id="progress" class="progress">
+            <h2>Seu Progresso</h2>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 60%;"></div>
+            </div>
+            <p>60% Completo</p>
+            <div class="achievements">
+                <i class="fas fa-trophy"></i>
+                <i class="fas fa-medal"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 StudyPlanner. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
